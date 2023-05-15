@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/programming/FakeCloudCPP/out/Services/cpp_service",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -ID:/programming/FakeCloudCPP/out/_deps/crow-src/include  -v -pthread -Wpedantic -Werror -fsanitize=address -fsanitize=undefined  -Werror=return-type -o CMakeFiles/FakeCloudCPP-CPPService.dir/src/main.cc.o -c D:/programming/FakeCloudCPP/Services/cpp_service/src/main.cc",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service/src/main.cc",
+  "output": "Services/cpp_service/CMakeFiles/FakeCloudCPP-CPPService.dir/src/main.cc.o"
+}
+]

@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "mcp2515_brd.h": "c",
+        "cstdlib": "c",
+        "mcp3912_user.h": "c",
+        "common.h": "c",
+        "sampler.h": "c",
+        "reader.h": "c",
+        "stddef.h": "c",
+        "mcp3912.h": "c",
+        "types.h": "c",
+        "stdbool.h": "c"
+    },
+    "editor.rulers": [
+        100, 120
+    ],
+    "clangd.arguments": [
+        "--log=verbose",
+        "--pretty=false",
+        "--enable-config=true",
+        "--print-all-options",
+        "-j=8",
+        "--suggest-missing-includes",
+        "--pch-storage=disk"
+    ],
+    "explorer.sortOrder": "type"
+}
