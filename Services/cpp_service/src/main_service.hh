@@ -13,7 +13,7 @@ public:
 
         std::cout << "Amazing!\n";
         
-        crow::SimpleApp app;
+        crow::SimpleApp app; 
 
         CROW_ROUTE(app, "/")([](){
             return "Hello world";

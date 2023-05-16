@@ -22,7 +22,7 @@
         "--print-all-options",
         "-j=8",
         "--suggest-missing-includes",
-        "--pch-storage=disk"
+        "--pch-storage=memory"
     ],
     "explorer.sortOrder": "type"
 }

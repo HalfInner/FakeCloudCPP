@@ -1,8 +1,32 @@
 [
 {
-  "directory": "D:/programming/FakeCloudCPP/out/Services/cpp_service",
-  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -ID:/programming/FakeCloudCPP/out/_deps/crow-src/include  -v -pthread -Wpedantic -Werror -fsanitize=address -fsanitize=undefined  -Werror=return-type -o CMakeFiles/FakeCloudCPP-CPPService.dir/src/main.cc.o -c D:/programming/FakeCloudCPP/Services/cpp_service/src/main.cc",
-  "file": "D:/programming/FakeCloudCPP/Services/cpp_service/src/main.cc",
-  "output": "Services/cpp_service/CMakeFiles/FakeCloudCPP-CPPService.dir/src/main.cc.o"
+  "directory": "D:/programming/FakeCloudCPP/build/Services/cpp_service_crud",
+  "command": "/usr/bin/c++ -DDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger/../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/test-db.sqlite\\\" -ID:/programming/FakeCloudCPP/Services/cpp_service_crud/src -isystem /home/halfsinner/.conan2/p/oatpp63a30faf22de3/p/include/oatpp-1.3.0/oatpp -isystem /home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger -isystem /home/halfsinner/.conan2/p/oatpp910beb0154044/p/include/oatpp-1.3.0/oatpp-sqlite -m64 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/crud-lib.dir/src/service/UserService.cpp.o -c D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/service/UserService.cpp",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/service/UserService.cpp",
+  "output": "Services/cpp_service_crud/CMakeFiles/crud-lib.dir/src/service/UserService.cpp.o"
+},
+{
+  "directory": "D:/programming/FakeCloudCPP/build/Services/cpp_service_crud",
+  "command": "/usr/bin/c++ -DDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger/../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/test-db.sqlite\\\" -ID:/programming/FakeCloudCPP/Services/cpp_service_crud/src -isystem /home/halfsinner/.conan2/p/oatpp63a30faf22de3/p/include/oatpp-1.3.0/oatpp -isystem /home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger -isystem /home/halfsinner/.conan2/p/oatpp910beb0154044/p/include/oatpp-1.3.0/oatpp-sqlite -m64 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/crud-lib.dir/src/ErrorHandler.cpp.o -c D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/ErrorHandler.cpp",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/ErrorHandler.cpp",
+  "output": "Services/cpp_service_crud/CMakeFiles/crud-lib.dir/src/ErrorHandler.cpp.o"
+},
+{
+  "directory": "D:/programming/FakeCloudCPP/build/Services/cpp_service_crud",
+  "command": "/usr/bin/c++ -DDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger/../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/test-db.sqlite\\\" -ID:/programming/FakeCloudCPP/Services/cpp_service_crud/src -isystem /home/halfsinner/.conan2/p/oatpp63a30faf22de3/p/include/oatpp-1.3.0/oatpp -isystem /home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger -isystem /home/halfsinner/.conan2/p/oatpp910beb0154044/p/include/oatpp-1.3.0/oatpp-sqlite -m64 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/crud-exe.dir/src/App.cpp.o -c D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/App.cpp",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service_crud/src/App.cpp",
+  "output": "Services/cpp_service_crud/CMakeFiles/crud-exe.dir/src/App.cpp.o"
+},
+{
+  "directory": "D:/programming/FakeCloudCPP/build/Services/cpp_service_crud",
+  "command": "/usr/bin/c++ -DDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger/../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/test-db.sqlite\\\" -ID:/programming/FakeCloudCPP/Services/cpp_service_crud/src -isystem /home/halfsinner/.conan2/p/oatpp63a30faf22de3/p/include/oatpp-1.3.0/oatpp -isystem /home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger -isystem /home/halfsinner/.conan2/p/oatpp910beb0154044/p/include/oatpp-1.3.0/oatpp-sqlite -m64 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/crud-test.dir/test/tests.cpp.o -c D:/programming/FakeCloudCPP/Services/cpp_service_crud/test/tests.cpp",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service_crud/test/tests.cpp",
+  "output": "Services/cpp_service_crud/CMakeFiles/crud-test.dir/test/tests.cpp.o"
+},
+{
+  "directory": "D:/programming/FakeCloudCPP/build/Services/cpp_service_crud",
+  "command": "/usr/bin/c++ -DDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/db.sqlite\\\" -DDATABASE_MIGRATIONS=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/sql\\\" -DOATPP_SWAGGER_RES_PATH=\\\"/home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger/../bin/oatpp-swagger/res\\\" -DTESTDATABASE_FILE=\\\"D:/programming/FakeCloudCPP/Services/cpp_service_crud/test-db.sqlite\\\" -ID:/programming/FakeCloudCPP/Services/cpp_service_crud/src -isystem /home/halfsinner/.conan2/p/oatpp63a30faf22de3/p/include/oatpp-1.3.0/oatpp -isystem /home/halfsinner/.conan2/p/oatppc885c973eb0f3/p/include/oatpp-1.3.0/oatpp-swagger -isystem /home/halfsinner/.conan2/p/oatpp910beb0154044/p/include/oatpp-1.3.0/oatpp-sqlite -m64 -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/crud-test.dir/test/UserControllerTest.cpp.o -c D:/programming/FakeCloudCPP/Services/cpp_service_crud/test/UserControllerTest.cpp",
+  "file": "D:/programming/FakeCloudCPP/Services/cpp_service_crud/test/UserControllerTest.cpp",
+  "output": "Services/cpp_service_crud/CMakeFiles/crud-test.dir/test/UserControllerTest.cpp.o"
 }
 ]

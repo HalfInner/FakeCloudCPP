@@ -3,28 +3,17 @@ cmake_minimum_required(VERSION 3.25)
 project("FakeCloudCPP-CPPService")
 
 include(FetchContent)
+set(FETCHCONTENT_QUIET FALSE)
 
-# set(FETCHCONTENT_QUIET FALSE) # Needed to print downloading progress
-# set(BOOST_INCLUDE_LIBRARIES system date_time)
-# set(BOOST_ENABLE_CMAKE ON)
-# FetchContent_Declare(
-#     Boost
-#     URL https://github.com/boostorg/boost/releases/download/boost-1.61.0/boost-1.81.0.7z
-# )
+set(Boost_INCLUDE_DIR "${CMAKE_BINARY_DIR}/_deps/boost-src")
 
-FetchContent_Declare(
-  crow
-  GIT_REPOSITORY https://github.com/CrowCpp/Crow
-  GIT_TAG        v1.0+5
-)
-
-# message(STATUS "Getting Boost")
-# FetchContent_MakeAvailable(Boost)
-# message(STATUS "Boost > src_dir=${boost_SOURCE_DIR}")
-# include_directories(${boost_SOURCE_DIR})
-# add_subdirectory(${depname_SOURCE_DIR} ${depname_BINARY_DIR})
-# FetchContent_Populate(Boost)
-# include_directories(${Boost_SOURCE_DIR})
+find_package(Boost REQUIRED)
+if(Boost_FOUND)
+   message(STATUS "FOUND")
+   include_directories(${Boost_INCLUDE_DIRS})
+else() 
+   message(STATUS "WTF?")
+endif()
 
 message(STATUS "Getting crow")
 set(CROW_INSTALL FALSE)
