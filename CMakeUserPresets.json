@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/mnt/d/programming/FakeCloudCPP/build/CMakePresets.json"
+        "D:\\programming\\FakeCloudCPP\\build_win\\CMakePresets.json"
     ]
 }

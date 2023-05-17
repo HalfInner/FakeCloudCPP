@@ -3,6 +3,7 @@ oatpp/1.3.0
 oatpp-swagger/1.3.0
 sqlite3/3.39.4
 oatpp-sqlite/1.3.0
+boost/1.70.0
 
 [generators]
 CMakeDeps
