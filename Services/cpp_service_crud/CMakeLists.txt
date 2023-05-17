@@ -36,16 +36,10 @@ target_link_libraries(crud-lib
         PUBLIC oatpp::oatpp-sqlite
 )
 
-# If CMake can't find SQLite3:
-#
-# 1. Make sure that you've built oatpp-sqlite with -DOATPP_SQLITE_AMALGAMATION=ON flag
-# 2. If you are not willing to use SQLite amalgamation then uncomment the following lines:
-#
-#find_package(SQLite3 REQUIRED)
-#
-#target_link_libraries(crud-lib
-#        PUBLIC SQLite::SQLite3
-#)
+# if (WIN32)
+#         find_package(sqlite3 CONFIG REQUIRED)
+#         target_link_libraries(crud-lib PUBLIC sqlite3::sqlite3)
+# endif()
 
 add_definitions(
         ## define path to swagger-ui static resources folder
