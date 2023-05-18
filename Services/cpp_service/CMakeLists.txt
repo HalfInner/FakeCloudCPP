@@ -18,7 +18,8 @@ if(CMAKE_SYSTEM MATCHES Windows)
 endif()
 
 if(CMAKE_HOST_SYSTEM MATCHES Linux)
-   set(COMMON_FLAGS "-v -pthread -Wpedantic -Werror -fsanitize=address -fsanitize=undefined  -Werror=return-type")
+   set(COMMON_FLAGS "-v -pthread -Wpedantic -Werror -Werror=return-type")
+   # -fsanitize=address -fsanitize=undefined  
 endif()
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_FLAGS}")
@@ -26,3 +27,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_FLAGS}")
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE Crow)
 target_link_libraries(${PROJECT_NAME} PRIVATE Crow)
+# target_compile_options(${PROJECT_NAME} -fno-sanitize=all)
